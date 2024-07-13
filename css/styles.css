@@ -55,7 +55,7 @@ body {
   color: #2e2f42;
 }
 
-.contact-details {
+.contact-ditails {
   font-style: normal;
 }
 
@@ -103,6 +103,10 @@ body {
   line-height: 24px;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.first-image{
+  background-color: #FFFFFF
 }
 
 .our-team-section {
