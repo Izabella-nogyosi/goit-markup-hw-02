@@ -13,13 +13,13 @@ body {
   background-color: var(--primary-white);
 }
 .logo {
-font-family: Raleway;
+font-family: "Raleway", sans-serif;
 font-size: 18px;
 font-weight: 700;
-line-height: 21px;
 letter-spacing: 0.03em;
 text-transform: uppercase; 
 color: #4d5ae5;
+line-height: 1.17;
 }
 .studio{
   color: #2e2f42;
@@ -110,11 +110,11 @@ background-color: var(--primary-white);
 }
 
 .portfolio-title {
-  font-size: 36px;
-  font-weight: 700;
+  font-size: 20px;
+  font-weight: 500;
   letter-spacing: 0.02em;
   color: var(--primary-navy-blue);
-  line-height: 1.11;
+  line-height: 1.2;
   text-align: center;
   text-transform: capitalize;
 }
