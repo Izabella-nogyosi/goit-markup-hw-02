@@ -38,15 +38,15 @@ body {
   color: #2e2f42;
 }
 
-.header-item:hover,
+.header-item-active:hover,
 .button:hover,
 .contact:hover,
 .button:hover {
   color: #404bbf;
 }
 
-.header-item:focus,
-.button:focus,
+.header-item-active:focus,
+.button-active:focus,
 .contact:focus,
 .button:focus {
   color: #404bbf;
