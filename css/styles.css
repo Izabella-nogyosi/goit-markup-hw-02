@@ -3,6 +3,8 @@
   --primary-white: #ffffff;
   --primary-navy-blue: #2e2f42;
    --cornflower-color: #E7E9FC;
+   --salte-color: #434455;
+
 }
 
 body {
@@ -11,7 +13,16 @@ body {
   background-color: var(--primary-white);
 }
 .logo {
-
+font-family: Raleway;
+font-size: 18px;
+font-weight: 700;
+line-height: 21px;
+letter-spacing: 0.03em;
+text-transform: uppercase; 
+color: #4d5ae5;
+}
+.studio{
+  color: #2e2f42;
 }
 
 .header-link {
@@ -61,7 +72,7 @@ body {
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.02em;
-  color: var(--salte-color);
+  color:  #434455;
 }
 
 .our-team-section {
@@ -75,6 +86,7 @@ body {
   line-height: 40px;
   letter-spacing: 0.02em;
   color: var(--primary-navy-blue);
+  line-height: 1.11;
 }
 
 .team-name {
@@ -90,7 +102,7 @@ font-size: 16px;
 font-weight: 400;
 line-height: 24px;
 letter-spacing: 0.02em;
-color: var(--salte-color);
+color: #434455;
 background-color: var(--primary-white);
 }
 .portofolio-section {
@@ -100,10 +112,13 @@ background-color: var(--primary-white);
 .portfolio-title {
   font-size: 36px;
   font-weight: 700;
-  line-height: 40px;
   letter-spacing: 0.02em;
   color: var(--primary-navy-blue);
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
 }
+
 .portfilio-image-description {
 font-size: 20px;
 font-weight: 500;
@@ -111,16 +126,19 @@ line-height: 24px;
 letter-spacing: 0.02em;
 color: var(--primary-navy-blue);
 }
+
 .portfolio-paragraph {
 font-size: 16px;
 font-weight: 400;
 line-height: 24px;
 letter-spacing: 0.02em;
-color: var(--salte-color);
+color:  #434455;
 }
+
 .footer{
   background-color: var(--primary-navy-blue);
 }
+
 .footer-text{
 font-size: 16px;
 font-weight: 400;
