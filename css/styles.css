@@ -45,11 +45,14 @@ body {
   color: #404bbf;
 }
 
-.header-item-active:focus,
+.header-item-active:hover
 .button-active:focus,
 .contact:focus,
 .button:focus {
   color: #404bbf;
+}
+.header-item-active : active {
+  color: #404bbf
 }
 
 .contact-details {
