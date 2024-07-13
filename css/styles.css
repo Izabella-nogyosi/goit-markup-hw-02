@@ -25,10 +25,9 @@ body {
 .studio {
   color: #2e2f42;
 }
-.studio-footer{
+.studio-footer {
   color: #f4f4fd;
 }
-
 
 .header-item {
   font-size: 16px;
@@ -38,26 +37,28 @@ body {
   color: #2e2f42;
 }
 
-.header-item-active:hover,
+.header-item:hover,
 .button:hover,
 .contact:hover,
 .button:hover {
   color: #404bbf;
 }
 
-.header-item-active:hover
-.button-active:focus,
+.header-item:focus,
+.button:focus,
 .contact:focus,
 .button:focus {
   color: #404bbf;
 }
-.header-item-active : active {
-  color: #404bbf
+
+.header-list {
+  color: #2e2f42;
 }
 
 .contact-details {
   font-style: normal;
 }
+
 .contact {
   font-size: 16px;
   font-weight: 400;
@@ -75,8 +76,7 @@ body {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #FFFFFF;
-  
+  color: #ffffff;
 }
 
 .button {
@@ -117,7 +117,7 @@ body {
   color: var(--primary-navy-blue);
   line-height: 1.11;
   text-align: center;
-  text-transform: capitalize; 
+  text-transform: capitalize;
 }
 
 .team-name {
@@ -144,7 +144,7 @@ body {
   font-size: 36px;
   font-weight: 500;
   letter-spacing: 0.02em;
-  color: #2e2f42;;
+  color: #2e2f42;
   line-height: 1.11;
   text-align: center;
   text-transform: capitalize;
