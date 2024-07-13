@@ -134,10 +134,10 @@ body {
 }
 
 .portfolio-title {
-  font-size: 26px;
+  font-size: 36px;
   font-weight: 500;
   letter-spacing: 0.02em;
-  color: var(--primary-navy-blue);
+  color: #2e2f42;;
   line-height: 1.11;
   text-align: center;
   text-transform: capitalize;
